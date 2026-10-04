@@ -1,0 +1,341 @@
+Microsoft Windows [Version 10.0.22621.4317]
+(c) Microsoft Corporation. All rights reserved.
+
+D:\AzureDevOpsRepo\SmartCertifyWebAPI>git init
+Initialized empty Git repository in D:/AzureDevOpsRepo/SmartCertifyWebAPI/.git/
+
+D:\AzureDevOpsRepo\SmartCertifyWebAPI>git remote add origin https://WaghvenTechnology@dev.azure.com/WaghvenTechnology/WebAPI2026/_git/smartcertify.api
+
+D:\AzureDevOpsRepo\SmartCertifyWebAPI>git fetch origin
+remote: Azure Repos
+remote: Found 3 objects to send. (35 ms)
+Unpacking objects: 100% (3/3), 743 bytes | 74.00 KiB/s, done.
+From https://dev.azure.com/WaghvenTechnology/WebAPI2026/_git/smartcertify.api
+ * [new branch]      main       -> origin/main
+
+D:\AzureDevOpsRepo\SmartCertifyWebAPI>git checkout -b main
+Switched to a new branch 'main'
+
+D:\AzureDevOpsRepo\SmartCertifyWebAPI>git add .
+warning: in the working copy of '.gitattributes', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.gitignore', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'LSC.SmartCertify.API/Controllers/ChoicesController.cs', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'LSC.SmartCertify.API/Controllers/CourseController.cs', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'LSC.SmartCertify.API/Controllers/ExamController.cs', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'LSC.SmartCertify.API/Controllers/QuestionsController.cs', LF will be replaced by CRLF the next timeGit touches it
+warning: in the working copy of 'LSC.SmartCertify.API/Controllers/UserController.cs', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'LSC.SmartCertify.API/Filters/AdminRoleAttribute.cs', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'LSC.SmartCertify.API/Filters/GlobalExceptionFilter.cs', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'LSC.SmartCertify.API/Filters/ValidationFilter.cs', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'LSC.SmartCertify.API/LSC.SmartCertify.API.csproj', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'LSC.SmartCertify.API/LSC.SmartCertify.API.http', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'LSC.SmartCertify.API/LSC.SmartCertify.API.sln', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'LSC.SmartCertify.API/Middlewares/RequestBodyLoggingMiddleware.cs', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'LSC.SmartCertify.API/Middlewares/RequestResponseLoggingMiddleware.cs', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'LSC.SmartCertify.API/Middlewares/ResponseBodyLoggingMiddleware.cs', LF will be replaced by CRLF thenext time Git touches it
+warning: in the working copy of 'LSC.SmartCertify.API/MissingImplementations/CURD_Courses_QuestionsAndChoices_Missing_Implementation.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'LSC.SmartCertify.API/Program.cs', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'LSC.SmartCertify.API/Properties/launchSettings.json', LF will be replaced by CRLF the next time Gittouches it
+warning: in the working copy of 'LSC.SmartCertify.API/RequestPayloads/Course.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'LSC.SmartCertify.API/appsettings.Development.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'LSC.SmartCertify.API/appsettings.Production.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'LSC.SmartCertify.API/appsettings.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'LSC.SmartCertify.Application/Common/NotFoundException.cs', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'LSC.SmartCertify.Application/DTOValidations/ChoiceValidator.cs', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'LSC.SmartCertify.Application/DTOValidations/CreateCourseValidator.cs', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'LSC.SmartCertify.Application/DTOValidations/QuestionChoiceValidator.cs', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'LSC.SmartCertify.Application/DTOValidations/QuestionValidator.cs', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'LSC.SmartCertify.Application/DTOValidations/StartExamRequestValidator.cs', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'LSC.SmartCertify.Application/DTOValidations/UpdateCourseValidator.cs', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'LSC.SmartCertify.Application/DTOs/ChoiceDto.cs', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'LSC.SmartCertify.Application/DTOs/ContactMessage.cs', LF will be replaced by CRLF the next time Gittouches it
+warning: in the working copy of 'LSC.SmartCertify.Application/DTOs/CourseDto.cs', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'LSC.SmartCertify.Application/DTOs/ExamDto.cs', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'LSC.SmartCertify.Application/DTOs/ExamResponseDto.cs', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'LSC.SmartCertify.Application/DTOs/QuestionDto.cs', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'LSC.SmartCertify.Application/DTOs/UserModel.cs', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'LSC.SmartCertify.Application/Interfaces/Certification/IExamRepository.cs', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'LSC.SmartCertify.Application/Interfaces/Certification/IExamService.cs', LF will be replaced by CRLFthe next time Git touches it
+warning: in the working copy of 'LSC.SmartCertify.Application/Interfaces/Common/IUserClaims.cs', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'LSC.SmartCertify.Application/Interfaces/Courses/ICourseRepository.cs', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'LSC.SmartCertify.Application/Interfaces/Courses/ICourseService.cs', LF will be replaced by CRLF thenext time Git touches it
+warning: in the working copy of 'LSC.SmartCertify.Application/Interfaces/Graph/IGraphAuthService.cs', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'LSC.SmartCertify.Application/Interfaces/Graph/IGraphService.cs', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'LSC.SmartCertify.Application/Interfaces/ManageUser/IUserProfileRepository.cs', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'LSC.SmartCertify.Application/Interfaces/ManageUser/IUserProfileService.cs', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'LSC.SmartCertify.Application/Interfaces/QuestionsChoice/IChoiceRepository.cs', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'LSC.SmartCertify.Application/Interfaces/QuestionsChoice/IChoiceService.cs', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'LSC.SmartCertify.Application/Interfaces/QuestionsChoice/IQuestionRepository.cs', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'LSC.SmartCertify.Application/Interfaces/QuestionsChoice/IQuestionService.cs', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'LSC.SmartCertify.Application/Interfaces/Storage/IStorageService.cs', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'LSC.SmartCertify.Application/LSC.SmartCertify.Application.csproj', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'LSC.SmartCertify.Application/MappingProfile.cs', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'LSC.SmartCertify.Application/Services/Certification/ExamService.cs', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'LSC.SmartCertify.Application/Services/ChoiceService.cs', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'LSC.SmartCertify.Application/Services/Common/UserClaims.cs', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'LSC.SmartCertify.Application/Services/CourseService.cs', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'LSC.SmartCertify.Application/Services/Graph/GraphAuthService.cs', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'LSC.SmartCertify.Application/Services/Graph/GraphService.cs', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'LSC.SmartCertify.Application/Services/ManageUser/UserProfileService.cs', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'LSC.SmartCertify.Application/Services/QuestionService.cs', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'LSC.SmartCertify.Application/Services/Storage/StorageService.cs', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'LSC.SmartCertify.Domain/Entities/BannerInfo.cs', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'LSC.SmartCertify.Domain/Entities/Choice.cs', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'LSC.SmartCertify.Domain/Entities/ContactU.cs', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'LSC.SmartCertify.Domain/Entities/Course.cs', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'LSC.SmartCertify.Domain/Entities/Exam.cs', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'LSC.SmartCertify.Domain/Entities/ExamQuestion.cs', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'LSC.SmartCertify.Domain/Entities/Notification.cs', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'LSC.SmartCertify.Domain/Entities/Question.cs', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'LSC.SmartCertify.Domain/Entities/Role.cs', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'LSC.SmartCertify.Domain/Entities/SmartApp.cs', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'LSC.SmartCertify.Domain/Entities/UserActivityLog.cs', LF will be replaced by CRLF the next time Gittouches it
+warning: in the working copy of 'LSC.SmartCertify.Domain/Entities/UserNotification.cs', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'LSC.SmartCertify.Domain/Entities/UserProfile.cs', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'LSC.SmartCertify.Domain/Entities/UserRole.cs', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'LSC.SmartCertify.Domain/LSC.SmartCertify.Domain.csproj', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'LSC.SmartCertify.Infrastructure/BackgroundServices/NotificationBackgroundService.cs', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'LSC.SmartCertify.Infrastructure/BackgroundServices/OnboardUserBackgroundService.cs', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'LSC.SmartCertify.Infrastructure/ChoiceRepository.cs', LF will be replaced by CRLF the next time Gittouches it
+warning: in the working copy of 'LSC.SmartCertify.Infrastructure/CourseRepository.cs', LF will be replaced by CRLF the next time Gittouches it
+warning: in the working copy of 'LSC.SmartCertify.Infrastructure/Database_Scripts/SmartCertify.sql', LF will be replaced by CRLF thenext time Git touches it
+warning: in the working copy of 'LSC.SmartCertify.Infrastructure/ExamRepository.cs', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'LSC.SmartCertify.Infrastructure/LSC.SmartCertify.Infrastructure.csproj', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'LSC.SmartCertify.Infrastructure/QuestionRepository.cs', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'LSC.SmartCertify.Infrastructure/ReadMe.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'LSC.SmartCertify.Infrastructure/SmartCertifyContext.cs', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'LSC.SmartCertify.Infrastructure/Storage/StorageService.cs', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'LSC.SmartCertify.Infrastructure/UserProfileRepository.cs', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it
+
+D:\AzureDevOpsRepo\SmartCertifyWebAPI>git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   .gitattributes
+        new file:   .gitignore
+        new file:   LSC.SmartCertify.API/Controllers/ChoicesController.cs
+        new file:   LSC.SmartCertify.API/Controllers/CourseController.cs
+        new file:   LSC.SmartCertify.API/Controllers/ExamController.cs
+        new file:   LSC.SmartCertify.API/Controllers/QuestionsController.cs
+        new file:   LSC.SmartCertify.API/Controllers/UserController.cs
+        new file:   LSC.SmartCertify.API/Filters/AdminRoleAttribute.cs
+        new file:   LSC.SmartCertify.API/Filters/GlobalExceptionFilter.cs
+        new file:   LSC.SmartCertify.API/Filters/ValidationFilter.cs
+        new file:   LSC.SmartCertify.API/LSC.SmartCertify.API.csproj
+        new file:   LSC.SmartCertify.API/LSC.SmartCertify.API.http
+        new file:   LSC.SmartCertify.API/LSC.SmartCertify.API.sln
+        new file:   LSC.SmartCertify.API/Middlewares/RequestBodyLoggingMiddleware.cs
+        new file:   LSC.SmartCertify.API/Middlewares/RequestResponseLoggingMiddleware.cs
+        new file:   LSC.SmartCertify.API/Middlewares/ResponseBodyLoggingMiddleware.cs
+        new file:   LSC.SmartCertify.API/MissingImplementations/CURD_Courses_QuestionsAndChoices_Missing_Implementation.txt
+        new file:   LSC.SmartCertify.API/Program.cs
+        new file:   LSC.SmartCertify.API/Properties/launchSettings.json
+        new file:   LSC.SmartCertify.API/RequestPayloads/Course.txt
+        new file:   LSC.SmartCertify.API/appsettings.Development.json
+        new file:   LSC.SmartCertify.API/appsettings.Production.json
+        new file:   LSC.SmartCertify.API/appsettings.json
+        new file:   LSC.SmartCertify.Application/Common/NotFoundException.cs
+        new file:   LSC.SmartCertify.Application/DTOValidations/ChoiceValidator.cs
+        new file:   LSC.SmartCertify.Application/DTOValidations/CreateCourseValidator.cs
+        new file:   LSC.SmartCertify.Application/DTOValidations/QuestionChoiceValidator.cs
+        new file:   LSC.SmartCertify.Application/DTOValidations/QuestionValidator.cs
+        new file:   LSC.SmartCertify.Application/DTOValidations/StartExamRequestValidator.cs
+        new file:   LSC.SmartCertify.Application/DTOValidations/UpdateCourseValidator.cs
+        new file:   LSC.SmartCertify.Application/DTOs/ChoiceDto.cs
+        new file:   LSC.SmartCertify.Application/DTOs/ContactMessage.cs
+        new file:   LSC.SmartCertify.Application/DTOs/CourseDto.cs
+        new file:   LSC.SmartCertify.Application/DTOs/ExamDto.cs
+        new file:   LSC.SmartCertify.Application/DTOs/ExamResponseDto.cs
+        new file:   LSC.SmartCertify.Application/DTOs/QuestionDto.cs
+        new file:   LSC.SmartCertify.Application/DTOs/UserModel.cs
+        new file:   LSC.SmartCertify.Application/Interfaces/Certification/IExamRepository.cs
+        new file:   LSC.SmartCertify.Application/Interfaces/Certification/IExamService.cs
+        new file:   LSC.SmartCertify.Application/Interfaces/Common/IUserClaims.cs
+        new file:   LSC.SmartCertify.Application/Interfaces/Courses/ICourseRepository.cs
+        new file:   LSC.SmartCertify.Application/Interfaces/Courses/ICourseService.cs
+        new file:   LSC.SmartCertify.Application/Interfaces/Graph/IGraphAuthService.cs
+        new file:   LSC.SmartCertify.Application/Interfaces/Graph/IGraphService.cs
+        new file:   LSC.SmartCertify.Application/Interfaces/ManageUser/IUserProfileRepository.cs
+        new file:   LSC.SmartCertify.Application/Interfaces/ManageUser/IUserProfileService.cs
+        new file:   LSC.SmartCertify.Application/Interfaces/QuestionsChoice/IChoiceRepository.cs
+        new file:   LSC.SmartCertify.Application/Interfaces/QuestionsChoice/IChoiceService.cs
+        new file:   LSC.SmartCertify.Application/Interfaces/QuestionsChoice/IQuestionRepository.cs
+        new file:   LSC.SmartCertify.Application/Interfaces/QuestionsChoice/IQuestionService.cs
+        new file:   LSC.SmartCertify.Application/Interfaces/Storage/IStorageService.cs
+        new file:   LSC.SmartCertify.Application/LSC.SmartCertify.Application.csproj
+        new file:   LSC.SmartCertify.Application/MappingProfile.cs
+        new file:   LSC.SmartCertify.Application/Services/Certification/ExamService.cs
+        new file:   LSC.SmartCertify.Application/Services/ChoiceService.cs
+        new file:   LSC.SmartCertify.Application/Services/Common/UserClaims.cs
+        new file:   LSC.SmartCertify.Application/Services/CourseService.cs
+        new file:   LSC.SmartCertify.Application/Services/Graph/GraphAuthService.cs
+        new file:   LSC.SmartCertify.Application/Services/Graph/GraphService.cs
+        new file:   LSC.SmartCertify.Application/Services/ManageUser/UserProfileService.cs
+        new file:   LSC.SmartCertify.Application/Services/QuestionService.cs
+        new file:   LSC.SmartCertify.Application/Services/Storage/StorageService.cs
+        new file:   LSC.SmartCertify.Domain/Entities/BannerInfo.cs
+        new file:   LSC.SmartCertify.Domain/Entities/Choice.cs
+        new file:   LSC.SmartCertify.Domain/Entities/ContactU.cs
+        new file:   LSC.SmartCertify.Domain/Entities/Course.cs
+        new file:   LSC.SmartCertify.Domain/Entities/Exam.cs
+        new file:   LSC.SmartCertify.Domain/Entities/ExamQuestion.cs
+        new file:   LSC.SmartCertify.Domain/Entities/Notification.cs
+        new file:   LSC.SmartCertify.Domain/Entities/Question.cs
+        new file:   LSC.SmartCertify.Domain/Entities/Role.cs
+        new file:   LSC.SmartCertify.Domain/Entities/SmartApp.cs
+        new file:   LSC.SmartCertify.Domain/Entities/UserActivityLog.cs
+        new file:   LSC.SmartCertify.Domain/Entities/UserNotification.cs
+        new file:   LSC.SmartCertify.Domain/Entities/UserProfile.cs
+        new file:   LSC.SmartCertify.Domain/Entities/UserRole.cs
+        new file:   LSC.SmartCertify.Domain/LSC.SmartCertify.Domain.csproj
+        new file:   LSC.SmartCertify.Infrastructure/BackgroundServices/NotificationBackgroundService.cs
+        new file:   LSC.SmartCertify.Infrastructure/BackgroundServices/OnboardUserBackgroundService.cs
+        new file:   LSC.SmartCertify.Infrastructure/ChoiceRepository.cs
+        new file:   LSC.SmartCertify.Infrastructure/CourseRepository.cs
+        new file:   LSC.SmartCertify.Infrastructure/Database_Scripts/SmartCertify.sql
+        new file:   LSC.SmartCertify.Infrastructure/ExamRepository.cs
+        new file:   LSC.SmartCertify.Infrastructure/LSC.SmartCertify.Infrastructure.csproj
+        new file:   LSC.SmartCertify.Infrastructure/QuestionRepository.cs
+        new file:   LSC.SmartCertify.Infrastructure/ReadMe.txt
+        new file:   LSC.SmartCertify.Infrastructure/SmartCertifyContext.cs
+        new file:   LSC.SmartCertify.Infrastructure/Storage/StorageService.cs
+        new file:   LSC.SmartCertify.Infrastructure/UserProfileRepository.cs
+        new file:   README.md
+
+
+D:\AzureDevOpsRepo\SmartCertifyWebAPI>git commit -m "initial commit"
+[main (root-commit) 8f90d5c] initial commit
+ 90 files changed, 5272 insertions(+)
+ create mode 100644 .gitattributes
+ create mode 100644 .gitignore
+ create mode 100644 LSC.SmartCertify.API/Controllers/ChoicesController.cs
+ create mode 100644 LSC.SmartCertify.API/Controllers/CourseController.cs
+ create mode 100644 LSC.SmartCertify.API/Controllers/ExamController.cs
+ create mode 100644 LSC.SmartCertify.API/Controllers/QuestionsController.cs
+ create mode 100644 LSC.SmartCertify.API/Controllers/UserController.cs
+ create mode 100644 LSC.SmartCertify.API/Filters/AdminRoleAttribute.cs
+ create mode 100644 LSC.SmartCertify.API/Filters/GlobalExceptionFilter.cs
+ create mode 100644 LSC.SmartCertify.API/Filters/ValidationFilter.cs
+ create mode 100644 LSC.SmartCertify.API/LSC.SmartCertify.API.csproj
+ create mode 100644 LSC.SmartCertify.API/LSC.SmartCertify.API.http
+ create mode 100644 LSC.SmartCertify.API/LSC.SmartCertify.API.sln
+ create mode 100644 LSC.SmartCertify.API/Middlewares/RequestBodyLoggingMiddleware.cs
+ create mode 100644 LSC.SmartCertify.API/Middlewares/RequestResponseLoggingMiddleware.cs
+ create mode 100644 LSC.SmartCertify.API/Middlewares/ResponseBodyLoggingMiddleware.cs
+ create mode 100644 LSC.SmartCertify.API/MissingImplementations/CURD_Courses_QuestionsAndChoices_Missing_Implementation.txt
+ create mode 100644 LSC.SmartCertify.API/Program.cs
+ create mode 100644 LSC.SmartCertify.API/Properties/launchSettings.json
+ create mode 100644 LSC.SmartCertify.API/RequestPayloads/Course.txt
+ create mode 100644 LSC.SmartCertify.API/appsettings.Development.json
+ create mode 100644 LSC.SmartCertify.API/appsettings.Production.json
+ create mode 100644 LSC.SmartCertify.API/appsettings.json
+ create mode 100644 LSC.SmartCertify.Application/Common/NotFoundException.cs
+ create mode 100644 LSC.SmartCertify.Application/DTOValidations/ChoiceValidator.cs
+ create mode 100644 LSC.SmartCertify.Application/DTOValidations/CreateCourseValidator.cs
+ create mode 100644 LSC.SmartCertify.Application/DTOValidations/QuestionChoiceValidator.cs
+ create mode 100644 LSC.SmartCertify.Application/DTOValidations/QuestionValidator.cs
+ create mode 100644 LSC.SmartCertify.Application/DTOValidations/StartExamRequestValidator.cs
+ create mode 100644 LSC.SmartCertify.Application/DTOValidations/UpdateCourseValidator.cs
+ create mode 100644 LSC.SmartCertify.Application/DTOs/ChoiceDto.cs
+ create mode 100644 LSC.SmartCertify.Application/DTOs/ContactMessage.cs
+ create mode 100644 LSC.SmartCertify.Application/DTOs/CourseDto.cs
+ create mode 100644 LSC.SmartCertify.Application/DTOs/ExamDto.cs
+ create mode 100644 LSC.SmartCertify.Application/DTOs/ExamResponseDto.cs
+ create mode 100644 LSC.SmartCertify.Application/DTOs/QuestionDto.cs
+ create mode 100644 LSC.SmartCertify.Application/DTOs/UserModel.cs
+ create mode 100644 LSC.SmartCertify.Application/Interfaces/Certification/IExamRepository.cs
+ create mode 100644 LSC.SmartCertify.Application/Interfaces/Certification/IExamService.cs
+ create mode 100644 LSC.SmartCertify.Application/Interfaces/Common/IUserClaims.cs
+ create mode 100644 LSC.SmartCertify.Application/Interfaces/Courses/ICourseRepository.cs
+ create mode 100644 LSC.SmartCertify.Application/Interfaces/Courses/ICourseService.cs
+ create mode 100644 LSC.SmartCertify.Application/Interfaces/Graph/IGraphAuthService.cs
+ create mode 100644 LSC.SmartCertify.Application/Interfaces/Graph/IGraphService.cs
+ create mode 100644 LSC.SmartCertify.Application/Interfaces/ManageUser/IUserProfileRepository.cs
+ create mode 100644 LSC.SmartCertify.Application/Interfaces/ManageUser/IUserProfileService.cs
+ create mode 100644 LSC.SmartCertify.Application/Interfaces/QuestionsChoice/IChoiceRepository.cs
+ create mode 100644 LSC.SmartCertify.Application/Interfaces/QuestionsChoice/IChoiceService.cs
+ create mode 100644 LSC.SmartCertify.Application/Interfaces/QuestionsChoice/IQuestionRepository.cs
+ create mode 100644 LSC.SmartCertify.Application/Interfaces/QuestionsChoice/IQuestionService.cs
+ create mode 100644 LSC.SmartCertify.Application/Interfaces/Storage/IStorageService.cs
+ create mode 100644 LSC.SmartCertify.Application/LSC.SmartCertify.Application.csproj
+ create mode 100644 LSC.SmartCertify.Application/MappingProfile.cs
+ create mode 100644 LSC.SmartCertify.Application/Services/Certification/ExamService.cs
+ create mode 100644 LSC.SmartCertify.Application/Services/ChoiceService.cs
+ create mode 100644 LSC.SmartCertify.Application/Services/Common/UserClaims.cs
+ create mode 100644 LSC.SmartCertify.Application/Services/CourseService.cs
+ create mode 100644 LSC.SmartCertify.Application/Services/Graph/GraphAuthService.cs
+ create mode 100644 LSC.SmartCertify.Application/Services/Graph/GraphService.cs
+ create mode 100644 LSC.SmartCertify.Application/Services/ManageUser/UserProfileService.cs
+ create mode 100644 LSC.SmartCertify.Application/Services/QuestionService.cs
+ create mode 100644 LSC.SmartCertify.Application/Services/Storage/StorageService.cs
+ create mode 100644 LSC.SmartCertify.Domain/Entities/BannerInfo.cs
+ create mode 100644 LSC.SmartCertify.Domain/Entities/Choice.cs
+ create mode 100644 LSC.SmartCertify.Domain/Entities/ContactU.cs
+ create mode 100644 LSC.SmartCertify.Domain/Entities/Course.cs
+ create mode 100644 LSC.SmartCertify.Domain/Entities/Exam.cs
+ create mode 100644 LSC.SmartCertify.Domain/Entities/ExamQuestion.cs
+ create mode 100644 LSC.SmartCertify.Domain/Entities/Notification.cs
+ create mode 100644 LSC.SmartCertify.Domain/Entities/Question.cs
+ create mode 100644 LSC.SmartCertify.Domain/Entities/Role.cs
+ create mode 100644 LSC.SmartCertify.Domain/Entities/SmartApp.cs
+ create mode 100644 LSC.SmartCertify.Domain/Entities/UserActivityLog.cs
+ create mode 100644 LSC.SmartCertify.Domain/Entities/UserNotification.cs
+ create mode 100644 LSC.SmartCertify.Domain/Entities/UserProfile.cs
+ create mode 100644 LSC.SmartCertify.Domain/Entities/UserRole.cs
+ create mode 100644 LSC.SmartCertify.Domain/LSC.SmartCertify.Domain.csproj
+ create mode 100644 LSC.SmartCertify.Infrastructure/BackgroundServices/NotificationBackgroundService.cs
+ create mode 100644 LSC.SmartCertify.Infrastructure/BackgroundServices/OnboardUserBackgroundService.cs
+ create mode 100644 LSC.SmartCertify.Infrastructure/ChoiceRepository.cs
+ create mode 100644 LSC.SmartCertify.Infrastructure/CourseRepository.cs
+ create mode 100644 LSC.SmartCertify.Infrastructure/Database_Scripts/SmartCertify.sql
+ create mode 100644 LSC.SmartCertify.Infrastructure/ExamRepository.cs
+ create mode 100644 LSC.SmartCertify.Infrastructure/LSC.SmartCertify.Infrastructure.csproj
+ create mode 100644 LSC.SmartCertify.Infrastructure/QuestionRepository.cs
+ create mode 100644 LSC.SmartCertify.Infrastructure/ReadMe.txt
+ create mode 100644 LSC.SmartCertify.Infrastructure/SmartCertifyContext.cs
+ create mode 100644 LSC.SmartCertify.Infrastructure/Storage/StorageService.cs
+ create mode 100644 LSC.SmartCertify.Infrastructure/UserProfileRepository.cs
+ create mode 100644 README.md
+
+D:\AzureDevOpsRepo\SmartCertifyWebAPI>git push -u origin main
+To https://dev.azure.com/WaghvenTechnology/WebAPI2026/_git/smartcertify.api
+ ! [rejected]        main -> main (non-fast-forward)
+error: failed to push some refs to 'https://dev.azure.com/WaghvenTechnology/WebAPI2026/_git/smartcertify.api'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. If you want to integrate the remote changes,
+hint: use 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+D:\AzureDevOpsRepo\SmartCertifyWebAPI>git pull
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=origin/<branch> main
+
+
+D:\AzureDevOpsRepo\SmartCertifyWebAPI>git pull main
+fatal: 'main' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+D:\AzureDevOpsRepo\SmartCertifyWebAPI>git push -u origin main
+To https://dev.azure.com/WaghvenTechnology/WebAPI2026/_git/smartcertify.api
+ ! [rejected]        main -> main (non-fast-forward)
+error: failed to push some refs to 'https://dev.azure.com/WaghvenTechnology/WebAPI2026/_git/smartcertify.api'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. If you want to integrate the remote changes,
+hint: use 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+D:\AzureDevOpsRepo\SmartCertifyWebAPI>^A

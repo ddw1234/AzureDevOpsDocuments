@@ -1,0 +1,49 @@
+Microsoft Windows [Version 10.0.22621.4317]
+(c) Microsoft Corporation. All rights reserved.
+
+D:\AzureDevOpsRepo\SmartCertifyUI>ng new smartcertify
+
+Would you like to share pseudonymous usage data about this project with the Angular Team
+at Google under Google's Privacy Policy at https://policies.google.com/privacy. For more
+details and how to change this setting, see https://angular.dev/cli/analytics.
+
+   No
+Global setting: disabled
+Local setting: No local workspace configuration file.
+Effective status: disabled
+√ Which stylesheet system would you like to use? CSS             [ https://developer.mozilla.org/docs/Web/CSS
+          ]
+√ Do you want to enable Server-Side Rendering (SSR) and Static Site Generation (SSG/Prerendering)? No
+√ Which AI tools should Angular integrate with? https://angular.dev/ai/develop-with-ai None
+CREATE smartcertify/.prettierrc (173 bytes)
+CREATE smartcertify/angular.json (1994 bytes)
+CREATE smartcertify/package.json (788 bytes)
+CREATE smartcertify/README.md (1524 bytes)
+CREATE smartcertify/tsconfig.json (939 bytes)
+CREATE smartcertify/.editorconfig (331 bytes)
+CREATE smartcertify/.gitignore (666 bytes)
+CREATE smartcertify/tsconfig.app.json (412 bytes)
+CREATE smartcertify/tsconfig.spec.json (423 bytes)
+CREATE smartcertify/.vscode/extensions.json (134 bytes)
+CREATE smartcertify/.vscode/launch.json (490 bytes)
+CREATE smartcertify/.vscode/tasks.json (1020 bytes)
+CREATE smartcertify/src/main.ts (228 bytes)
+CREATE smartcertify/src/index.html (311 bytes)
+CREATE smartcertify/src/styles.css (81 bytes)
+CREATE smartcertify/src/app/app.spec.ts (710 bytes)
+CREATE smartcertify/src/app/app.ts (307 bytes)
+CREATE smartcertify/src/app/app.css (0 bytes)
+CREATE smartcertify/src/app/app.html (20488 bytes)
+CREATE smartcertify/src/app/app.config.ts (322 bytes)
+CREATE smartcertify/src/app/app.routes.ts (80 bytes)
+CREATE smartcertify/public/favicon.ico (15086 bytes)
+√ Packages installed successfully.
+warning: in the working copy of 'package-lock.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'package.json', LF will be replaced by CRLF the next time Git touches it
+    Successfully initialized git.
+
+D:\AzureDevOpsRepo\SmartCertifyUI>cd smartcertify
+
+D:\AzureDevOpsRepo\SmartCertifyUI\smartcertify>code
+
+D:\AzureDevOpsRepo\SmartCertifyUI\smartcertify>
